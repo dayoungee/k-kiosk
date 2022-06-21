@@ -1,0 +1,26 @@
+
+.wait-bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+}
+
+video {
+  width: 100%;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text p {
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
