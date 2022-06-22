@@ -91,3 +91,60 @@ video {
     padding-top: 13px;
     font-size: 50px;
 }
+.slider{
+    position: absolute;
+    padding-bottom: 300px;
+    width: 850px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.slider-image{
+    height: 850px;
+    width: 850px;
+}
+
+.wait-text{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    animation: fadein 3s infinite alternate;
+    -moz-animation: fadein 3s infinite alternate; /* Firefox */
+    -webkit-animation: fadein 3s infinite alternate ; /* Safari and Chrome */
+    -o-animation: fadein 3s infinite alternate; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
